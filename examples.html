@@ -15,6 +15,18 @@
     <link href="css/3-col-portfolio.css" rel="stylesheet">
   </head>
 
+  <style>
+      table,
+      td,
+      th {
+        padding: 10px;
+        border: 2px solid #9BA4B5;
+        border-radius: 5px;
+        background-color: #e5e5e5;
+        text-align: left;
+      }
+    </style>
+
   <body>
 
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
@@ -26,15 +38,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="https://cpp4app.github.io/">See Privacy</a>
+          <a class="navbar-brand" href="index.html">See Privacy</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="examples.html">Examples</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -52,27 +64,132 @@
 
       <div class="row">
 
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="images/6-8.jpg"></a>
-          <h3><a href="#project-link">The original screenshot 6-8.</a></h3>
-          <p>This is the original screenshot.</p>
+        <div class="col-md-2 portfolio-item">
+          <img class="img-responsive" src="assets/images/icon-6.png">
+        </div>
+        <div class="col-md-9 portfolio-item">
+          <h3>Example 1: WhatsApp</h3>
+          <p style="font-size:20px;">There are two inputs of SeePrivacy to generate CPP for a mobile app: </p>
+            <a href="assets/pp/6.html"; style="font-size:20px;">1: WhatsApp's privacy policy in HTML format;</a>
+            <p style="font-size:20px;">2. The current GUI screenshot that you would like to generate CPP (the leftmost). </p>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-md-3 portfolio-item">
+          <img class="img-responsive" src="assets/images/6-8.jpg">
+          <center><h3>GUI screenshot 1. </h3></center>
         </div>
 
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="images/result-6-8.jpg"></a>
-          <h3><a href="#project-link">The detected results of screenshot 6-8.</a></h3>
-          <p>This is the detected privacy-related contexts.</p>
+        <div class="col-md-3 portfolio-item">
+          <img class="img-responsive" src="assets/images/result-6-8.jpg">
+          <center><h3>Detected CPPs.</h3></center>
         </div>
 
-        <div class="col-md-4 portfolio-item">
-          <a href="#project-link"><img class="img-responsive" src="http://placehold.it/700x400"></a>
-          <h3><a href="#project-link">Project Name</a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+        <div class="col-md-6 portfolio-item">
+          <table>
+            <tr>
+              <th>CPP No.</th>
+              <th>Context data type</th>
+              <th>Corresponding privacy policy segments</th>
+            </tr>
+            <tr>
+              <td>1, 5, 6</td>
+              <td>Photos</td>
+              <td>
+                <p>You can add other information to your account, such as a profile <strong>picture</strong> and "about" information. you can provide a group profile picture or description.</p>
+
+                <p>The features you use like our messaging, calling, status, groups (including group name, group <strong>picture</strong>, group description), payments or business features. profile <strong>photo</strong>, "about" information.
+              </p>
+              </td>
+            </tr>
+            <tr>
+              <td>2, 3, 4</td>
+              <td>Phone</td>
+              <td>
+              <p>For example, you must provide your <strong>mobile phone number</strong> to create an account to use our services. </p>
+
+              <p>You must provide your <strong>mobile phone number</strong> and basic information (including a profile name of your choice) to create a whatsapp account. instead, your messages are stored on your device and not typically stored on our servers. </p>
+
+              <p>You can use the contact upload feature and provide us, if permitted by applicable laws, with the  <strong>phone numbers</strong> in your address book on a regular basis, including those of users of our services and your other contacts. </p>
+
+              <p>Even if you do not use our location-related features, we use ip addresses and other information like <strong>phone number</strong> area codes to estimate your general location (e.g., city and country)</p>
+              </td>
+            </tr>
+          </table>
+          <center><h3>Retrieved privacy policy segments.</h3></center>
         </div>
+
+
 
       </div>
 
       <hr>
+
+     <div class="row">
+
+        <div class="col-md-2 portfolio-item">
+          <img class="img-responsive" src="assets/images/icon-11.png">
+        </div>
+        <div class="col-md-9 portfolio-item">
+          <h3>Example 2: SnapChat</h3>
+          <p style="font-size:20px;">There are two inputs of SeePrivacy to generate CPP for a mobile app: </p>
+            <a href="assets/pp/11.html"; style="font-size:20px;">1: SnapChat's privacy policy in HTML format;</a>
+            <p style="font-size:20px;">2. The current GUI screenshot that you would like to generate CPP (the leftmost). </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 portfolio-item">
+          <img class="img-responsive" src="assets/images/11-9.jpg">
+          <center><h3>GUI screenshot 2. </h3></center>
+        </div>
+
+        <div class="col-md-3 portfolio-item">
+          <img class="img-responsive" src="assets/images/result-11-9.jpg">
+          <center><h3>Detected CPPs.</h3></center>
+        </div>
+
+        <div class="col-md-6 portfolio-item">
+          <table>
+            <tr>
+              <th>CPP No.</th>
+              <th>Context data type</th>
+              <th>Corresponding privacy policy segments</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Profile</td>
+              <td>
+                <p>If you link your snapchat <strong>account</strong> to another service (like bitmoji or a third-party app), we may receive information from the other service, like how you use that service.</p>
+              </p>
+              </td>
+            </tr>
+            <tr>
+              <td>2, 5</td>
+              <td>Contacts</td>
+              <td>
+              <p><strong>Device phonebook</strong>. Because our services are all about communicating with friends, we may — with your permission — collect information from your <strong>device’s phonebook</strong>. if another user uploads their <strong>contact list</strong>, we may combine information from that user’s <strong>contact list</strong> with other information we have collected about you.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>3, 4</td>
+              <td>Photos</td>
+              <td>
+              <p><strong>Camera, photos</strong>, and audio. Many of our services require us to collect <strong>images</strong> and other information from your <strong>device’s camera and photos</strong>. For example, you won’t be able to send snaps or upload <strong>photos</strong> from your <strong>camera roll</strong> unless we can access your <strong>camera</strong> or <strong>photos</strong>.</p> 
+
+              <p>For example by tagging your memories with searchable labels based on your location (of course, if you’ve given us permission to collect your location) and the content of your <strong>photo</strong> or <strong>video</strong> (e.g., if there’s a dog in your <strong>photo</strong>, it may be searchable in memories by the term “dog”)</p>
+              </td>
+            </tr>
+          </table>
+          <center><h3>Retrieved privacy policy segments.</h3></center>
+        </div>
+
+
+
+      </div>
 
       <div class="row text-center">
         
