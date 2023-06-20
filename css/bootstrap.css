@@ -4796,17 +4796,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #00a9ce;
 }
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #ffffff;
+  color: #007690;
   background-color: transparent;
 }
 
@@ -4820,7 +4820,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
 }
 
@@ -7096,3 +7096,28 @@ td.visible-print {
     display: none !important;
   }
 }
+
+/*  Sliders
+==================================== */
+/*  .slider {
+  width: 800px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  margin: 0 auto; /* Center the slider horizontally */
+}
+
+.slide {
+  width: 100%; /* Set slide width to fill the container */
+  height: 100%; /* Set slide height to fill the container */
+}
+
+.slide img {
+  width: 100%; /* Make the slide image fill the slide container */
+  height: 100%; /* Make the slide image fill the slide container */
+  object-fit: cover; /* Ensure the image covers the entire slide container */
+} */
+
+.slide img {
+  background-color: blue; /* Set the desired overlay color */
+  opacity: 0.5; /* Set the desired overlay opacity */
+  z-index: 1;
+} 
