@@ -8,4 +8,4 @@ The showcase website of our **SeePrivacy**: https://cpp4app.github.io/index.html
 
 The template is taken from https://github.com/learning-zone/website-templates/tree/master.
 
-The images are taken from https://unsplash.com/ and https://pixabay.com/
+The images are taken from https://unsplash.com/ , https://pixabay.com/ and https://icons8.com/
