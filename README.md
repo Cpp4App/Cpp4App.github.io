@@ -23,6 +23,6 @@ Welcome to cite us:
 
 
 
-The template is taken from https://github.com/learning-zone/website-templates/tree/master.
+The template of our demostration website is taken from https://github.com/learning-zone/website-templates/tree/master.
 
-The images are taken from https://unsplash.com/ , https://pixabay.com/ and https://icons8.com/
+The images of our demostration website are taken from https://unsplash.com/ , https://pixabay.com/ and https://icons8.com/
