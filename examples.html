@@ -70,6 +70,21 @@
 
     <div class="container">
 
+      <div class="row">
+
+        <div class="col-lg-12 text-center">
+          <h1 style="color: #00a9ce;"> Online Application
+            <!-- <br>  -->
+          <!-- <small> Automated Contextual Privacy Policies Generation for Mobile Apps </small> -->
+          </h1>
+        </div>
+
+      </div>
+
+      <!-- <h1 style="color: #00a9ce;"> Online Application</h1> -->
+
+      <gradio-app src="https://cpp4app-cpp4app.hf.space" theme_mode="light"></gradio-app>
+      
       <!-- <div class="row">
 
         <div class="col-lg-12">
@@ -77,7 +92,17 @@
         </div>
 
       </div> -->
-      <hr>
+
+      <div class="row">
+
+        <div class="col-lg-12 text-center">
+          <h1 class="page-header" style="color: #00a9ce;"> Static Example<br> 
+          <small> If online application is not loaded, please refer to our static examples </small></h1>
+        </div>
+
+      </div>
+
+      <!-- <hr> -->
       <select id="example-selector" class="dropdown-select" onchange="showExample(this.value)">
         <option value="example1" selected>Example 1: WhatsApp</option>
         <option value="example2">Example 2: SnapChat</option>
@@ -209,6 +234,9 @@
         </div>
       </div>
 
+      <!-- <hr>
+      <gradio-app src="https://cpp4app-cpp4app.hf.space" theme_mode="light"></gradio-app> -->
+
       <!-- <div class="row">
 
         <div class="col-md-2 portfolio-item">
@@ -318,16 +346,16 @@
               <td>2, 5</td>
               <td>Contacts</td>
               <td>
-              <p><strong>Device phonebook</strong>. Because our services are all about communicating with friends, we may â€? with your permission â€? collect information from your <strong>deviceâ€™s phonebook</strong>. if another user uploads their <strong>contact list</strong>, we may combine information from that userâ€™s <strong>contact list</strong> with other information we have collected about you.</p>
+              <p><strong>Device phonebook</strong>. Because our services are all about communicating with friends, we may â�?? with your permission â�?? collect information from your <strong>deviceâ�?�?s phonebook</strong>. if another user uploads their <strong>contact list</strong>, we may combine information from that userâ�?�?s <strong>contact list</strong> with other information we have collected about you.</p>
               </td>
             </tr>
             <tr>
               <td>3, 4</td>
               <td>Photos</td>
               <td>
-              <p><strong>Camera, photos</strong>, and audio. Many of our services require us to collect <strong>images</strong> and other information from your <strong>deviceâ€™s camera and photos</strong>. For example, you wonâ€™t be able to send snaps or upload <strong>photos</strong> from your <strong>camera roll</strong> unless we can access your <strong>camera</strong> or <strong>photos</strong>.</p> 
+              <p><strong>Camera, photos</strong>, and audio. Many of our services require us to collect <strong>images</strong> and other information from your <strong>deviceâ�?�?s camera and photos</strong>. For example, you wonâ�?�?t be able to send snaps or upload <strong>photos</strong> from your <strong>camera roll</strong> unless we can access your <strong>camera</strong> or <strong>photos</strong>.</p> 
 
-              <p>For example by tagging your memories with searchable labels based on your location (of course, if youâ€™ve given us permission to collect your location) and the content of your <strong>photo</strong> or <strong>video</strong> (e.g., if thereâ€™s a dog in your <strong>photo</strong>, it may be searchable in memories by the term â€œdogâ€?)</p>
+              <p>For example by tagging your memories with searchable labels based on your location (of course, if youâ�?�?ve given us permission to collect your location) and the content of your <strong>photo</strong> or <strong>video</strong> (e.g., if thereâ�?�?s a dog in your <strong>photo</strong>, it may be searchable in memories by the term â�?œdogâ�??)</p>
               </td>
             </tr>
           </table>
@@ -409,6 +437,11 @@
       // }
 
     </script>
+
+    <script
+    type="module"
+    src="https://gradio.s3-us-west-2.amazonaws.com/3.35.2/gradio.js"
+    ></script>
 
   </body>
 
