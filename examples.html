@@ -42,6 +42,82 @@
     }
   </style>
 
+  <style>
+    /* Add card design with gradient background and shadow */
+    .privacy-policy-item {
+      max-width: 600px;
+      margin: 0 auto 20px;
+      padding: 20px;
+      border-radius: 5px;
+      background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .cpp-number {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .context-data-type {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .privacy-policy-text {
+    font-size: 16px;
+    line-height: 1.6;
+    }
+    
+    .privacy-policy-text p {
+      margin-bottom: 10px;
+    }
+
+    .label {
+    display: inline-block;
+    /* background-color: #e44d26; */
+    background: linear-gradient(to bottom, #fc8c6f, #e44d26);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    }
+
+    .type_label {
+    display: inline-block;
+    /* background-color:#9BA4B5; */
+    background: linear-gradient(to bottom, #bdbebf, #9BA4B5);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    }
+
+    .in_text_label {
+    display: inline-block;
+    /* background-color:#9BA4B5; */
+    background: linear-gradient(to bottom, #bdbebf, #9BA4B5);
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+    }
+
+    .privacy-policy-scroll-container {
+    max-height: 550px; /* Set the fixed height for the whole container */
+    overflow-y: scroll; /* Add vertical scrollbar if content exceeds height */
+    overflow-x: hidden;
+    }
+
+  </style>
+
   <body>
 
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
@@ -138,7 +214,7 @@
             <!-- <center><h3>Detected CPPs by <strong>SeePrivacy</strong>.</h3></center> -->
           </div>
   
-          <div class="col-md-6 portfolio-item">
+          <!-- <div class="col-md-6 portfolio-item">
             <center><h3><small>Retrieved privacy policy segments by <strong>SeePrivacy</strong>.</h3></center>
             <div class="privacy-policy-section" style="display: flex; flex-wrap: wrap;">
               <div class="privacy-policy-item" style="width: 100%; max-width: 600px; margin-bottom: 20px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #f7f7f7;">
@@ -161,7 +237,62 @@
                 </div>
               </div>
             </div>
-            <!-- <center><h3>Retrieved privacy policy segments by <strong>SeePrivacy</strong>.</h3></center> -->
+            
+          </div> -->
+
+          <!-- new display style -->
+          <div class="col-md-6 portfolio-item">
+            <center><h3><small>Retrieved privacy policy segments by <strong>SeePrivacy</strong>.</h3></center>
+            <div class="privacy-policy-section" style="display: flex; flex-wrap: wrap;">
+              <div class="privacy-policy-scroll-container">
+              <div class="privacy-policy-item" >
+                <div class="cpp-number" >
+                  <!-- CPP No. 1, 5, 6 -->
+                  <div>Detected CPPs:</div>
+                  <!-- <span class="label" style="background-color:limegreen;">CPP 1</span> -->
+                  <span class="label" style="background: linear-gradient(to bottom, #7ed97e, #32cd32);">CPP 1</span>
+                  <span class="label">CPP 5</span>
+                  <span class="label">CPP 6</span>
+                </div>
+
+                <div class="context-data-type" >
+                  <!-- Context data type: Photos -->
+                  <div>Context Data Type:</div>
+                  <span class="type_label">Photos</span>
+                </div>
+
+                <div class="privacy-policy-text">
+                  <!-- <div style="font-size: 20px;font-weight: bold;margin-bottom: 10px;">Policy Segments:</div> -->
+                  <p >You can add other information to your account, such as a profile <span class="in_text_label">picture</span> and "about" information. You can provide a group profile <span class="in_text_label">picture</span> or description.</p>
+                  <p >The features you use like our messaging, calling, status, groups (including group name, group <span class="in_text_label">picture</span>, group description), payments or business features. Profile <span class="in_text_label">photo</span>, "about" information.</p>
+                </div>
+              </div>
+              
+              <div class="privacy-policy-item">
+                <div class="cpp-number" >
+                  <!-- CPP No. 2, 3, 4 -->
+                  <div>Detected CPPs:</div>
+                  <!-- <span class="label" style="background-color:limegreen;">CPP 1</span> -->
+                  <span class="label" style="background: linear-gradient(to bottom, #7ed97e, #32cd32);">CPP 2</span>
+                  <span class="label">CPP 3</span>
+                  <span class="label">CPP 4</span>
+                </div>
+                <div class="context-data-type" >
+                  <!-- Context data type: Phone -->
+                  <div>Context Data Type:</div>
+                  <span class="type_label">Phone</span>
+                </div>
+                <div class="privacy-policy-text">
+                  <!-- <div style="font-size: 20px;font-weight: bold;margin-bottom: 10px;">Policy Segments:</div> -->
+                  <p >For example, you must provide your <span class="in_text_label">mobile phone number</span> to create an account to use our services.</p>
+                  <p >You must provide your <span class="in_text_label">mobile phone number</span> and basic information (including a profile name of your choice) to create a WhatsApp account. Instead, your messages are stored on your device and not typically stored on our servers.</p>
+                  <p >You can use the contact upload feature and provide us, if permitted by applicable laws, with the <span class="in_text_label">phone numbers</span> in your address book on a regular basis, including those of users of our services and your other contacts.</p>
+                  <p >Even if you do not use our location-related features, we use IP addresses and other information like <span class="in_text_label">phone number</span> area codes to estimate your general location (e.g., city and country).</p>
+                </div>
+              </div>
+              </div>
+            </div>
+            
           </div>
   
   
